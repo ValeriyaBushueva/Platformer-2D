@@ -2,75 +2,78 @@ using UnityEngine;
 
 public class MainHeroWalker
 {
-   private const string Horizontal = nameof(Horizontal);
-   private const string Vertical = nameof(Vertical);
+    private const string Horizontal = nameof(Horizontal);
 
-   private CharacterView _characterView;
-   private SpriteAnimator _spriteAnimator;
+    private const string Vertical = nameof(Vertical);
 
-   private float _yvelocity;
+    private CharacterView _characterView;
 
-   public MainHeroWalker(CharacterView characterView, SpriteAnimator spriteAnimator)
-   {
-      _characterView = characterView;
-      _spriteAnimator = spriteAnimator;
-   }
+    private SpriteAnimator _spriteAnimator;
 
-   public void Update()
-   {
-      var doJump = Input.GetAxis(Vertical) > 0;
-      var xAxisInput = Input.GetAxis(Horizontal);
+    private float _yvelocity;
 
-      var isGoSideWay = Mathf.Abs(xAxisInput) > _characterView.MovingThresh;
+    private Vector2 CharacterVelocity
+    {
+        get => _characterView.Velocity;
+        set => _characterView.Velocity = value;
+    }
 
-      if (isGoSideWay)
-      {
-         GoSideWay(xAxisInput);
-      }
+    public Vector3 CharacterPosition
+    {
+        get => _characterView.Position;
+        set => _characterView.Position = value;
+    }
 
-      if (IsGrounded())
-      {
-         _spriteAnimator.StartAnimation(_characterView.SpriteRenderer, isGoSideWay ? Track.walk : Track.idle, true, _characterView.AnimationSpeed);
+    public MainHeroWalker(CharacterView characterView, SpriteAnimator spriteAnimator)
+    {
+        _characterView = characterView;
+        _spriteAnimator = spriteAnimator;
+    }
 
-         if (doJump && Mathf.Approximately(_yvelocity, 0))
-         {
-            _yvelocity = _characterView.JumpStartSpeed;
-         }
-         else if(_yvelocity < 0)
-         {
-            _yvelocity = 0;
-            MovementCharacter();
-         }
-      }
-      else
-      {
-         LandingCharacter();
-      }
+    public void Update()
+    {
+        var doJump = Input.GetAxis(Vertical) > 0;
+        var xAxisInput = Input.GetAxis(Horizontal);
 
-      void GoSideWay( float xAxisInput)
-      {
-         _characterView.transform.position += Vector3.right * Time.deltaTime * _characterView.WalkSpeed * ((xAxisInput < 0) ? -1 : 1);
-         _characterView.SpriteRenderer.flipX = xAxisInput < 0;
-      }
+        var isGoSideWay = Mathf.Abs(xAxisInput) > _characterView.MovingThresh;
 
-      bool IsGrounded()
-      {
-         return _characterView.transform.position.y <= _characterView.GroundLevel && _yvelocity <= 0;
-      }
-   }
+        if (isGoSideWay)
+        {
+            GoSideWay(xAxisInput);
+        }
 
-   private void LandingCharacter()
-   {
-      _yvelocity += _characterView.Acceleration * Time.deltaTime;
-      if (Mathf.Abs(_yvelocity) > _characterView.FlyThresh)
-      {
-         _spriteAnimator.StartAnimation(_characterView.SpriteRenderer, Track.jump,  true, _characterView.AnimationSpeed);
-      }
-      _characterView.transform.position += Vector3.up *(Time.deltaTime * _yvelocity);
-   }
+        if (_characterView.IsGrounded)
+        {
+            _spriteAnimator.StartAnimation(_characterView.SpriteRenderer, isGoSideWay ? Track.walk : Track.idle, true,
+                _characterView.AnimationSpeed);
 
-   private void MovementCharacter()
-   {
-      _characterView.transform.position.Change(y: _characterView.GroundLevel);
-   }
+            if (doJump && Mathf.Approximately(CharacterVelocity.y, 0))
+            {
+                CharacterVelocity = CharacterVelocity.SetY(_characterView.JumpStartSpeed);
+            }
+        }
+        else
+        {
+            LandingCharacter();
+        }
+
+        void GoSideWay(float xAxisInput)
+        {
+            CharacterPosition +=
+                Vector3.right * Time.deltaTime * _characterView.WalkSpeed * ((xAxisInput < 0) ? -1 : 1);
+            _characterView.SpriteRenderer.flipX = xAxisInput < 0;
+        }
+    }
+
+    private void LandingCharacter()
+    {
+        _yvelocity += _characterView.Acceleration * Time.deltaTime;
+        if (Mathf.Abs(_yvelocity) > _characterView.FlyThresh)
+        {
+            _spriteAnimator.StartAnimation(_characterView.SpriteRenderer, Track.jump, true,
+                _characterView.AnimationSpeed);
+        }
+
+        //CharacterPosition += Vector3.up *(Time.deltaTime * _yvelocity);
+    }
 }

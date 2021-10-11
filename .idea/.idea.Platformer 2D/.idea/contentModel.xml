@@ -10,6 +10,7 @@
           <e p="BlockView.cs" t="Include" />
           <e p="CharacterView.cs" t="Include" />
           <e p="CustomAnimation.cs" t="Include" />
+          <e p="GroundChecker.cs" t="Include" />
           <e p="Lessons.cs" t="Include" />
           <e p="MainHeroWalker.cs" t="Include" />
           <e p="ParalaxManager.cs" t="Include" />

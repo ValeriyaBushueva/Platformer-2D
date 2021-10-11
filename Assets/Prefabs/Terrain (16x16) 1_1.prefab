@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1148416263595513509}
   - component: {fileID: 3981143827478774037}
   - component: {fileID: 6017619570293341110}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain (16x16) 1_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 7720078550713291429, guid: 413986c4a668c374d8de72a47621b531, type: 3}
+  m_Sprite: {fileID: 7720078550713291429, guid: 413986c4a668c374d8de72a47621b531,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

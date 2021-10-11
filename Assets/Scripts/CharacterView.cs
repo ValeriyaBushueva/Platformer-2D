@@ -11,6 +11,8 @@ public class CharacterView : MonoBehaviour
     [SerializeField] private float _flyThresh = 0.4f;
     [SerializeField] private  float _grounLevel = 0.2f;
     [SerializeField] private float _acceleration = -9.8f;
+    [SerializeField] private Rigidbody2D _rigidbody2D;
+    [SerializeField] private GroundChecker _groundChecker;
 
     public SpriteRenderer SpriteRenderer => _spriteRenderer;
 
@@ -27,4 +29,18 @@ public class CharacterView : MonoBehaviour
     public float GroundLevel => _grounLevel;
 
     public float Acceleration => _acceleration;
+
+    public Vector3 Position
+    {
+        get => _rigidbody2D.position;
+        set => _rigidbody2D.MovePosition(value);
+    }
+
+    public bool IsGrounded => _groundChecker.IsOverGround;
+
+    public Vector2 Velocity
+    {
+        get => _rigidbody2D.velocity;
+        set => _rigidbody2D.velocity = value;
+    }
 }
