@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21c3663d-a27c-4343-a1ef-61f447d3088c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GroundChecker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GroundChecker.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Platformer 2D/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Platformer 2D/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Platformer 2D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Platformer 2D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Terrain (16x16) 1_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Terrain (16x16) 1_1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainHeroWalker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainHeroWalker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Lessons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Lessons.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +20,20 @@
     <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/CustomAnimation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CustomAnimation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2A255F4F-234D-4E00-850A-FFF85A122B33/84/8d6f61b7/Rigidbody2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletEmitter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/BulletsEmitter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CannonView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AimingMuzzle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/Bullet.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/AimingMuzzle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/CannonView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Track.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/MainHeroWalker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/BulletView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpriteAnimationConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainHeroWalker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParalaxManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -45,13 +47,18 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Track.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SpriteAnimationConfig.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SpriteSequence.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Lessons.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SpriteAnimator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CustomAnimation.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GroundChecker.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CharacterView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MainHeroWalker.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BulletView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BulletEmitter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Lessons.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CannonView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AimingMuzzle.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1z5Yjj1SQfqQWS8GawUAbNBKg0C" />
@@ -79,10 +86,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="3308">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="3308" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -100,7 +107,8 @@
       <workItem from="1633439563218" duration="2850000" />
       <workItem from="1633719895990" duration="5452000" />
       <workItem from="1633888668188" duration="7362000" />
-      <workItem from="1633944067275" duration="3440000" />
+      <workItem from="1633944067275" duration="5081000" />
+      <workItem from="1634025196971" duration="2162000" />
     </task>
     <servers />
   </component>

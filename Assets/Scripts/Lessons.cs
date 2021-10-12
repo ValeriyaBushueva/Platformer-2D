@@ -1,4 +1,4 @@
-
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Lessons : MonoBehaviour
@@ -7,9 +7,18 @@ public class Lessons : MonoBehaviour
     [SerializeField] private SpriteRenderer _background;
     [SerializeField] private CharacterView _characterView;
     [SerializeField] private SpriteAnimationConfig _spriteAnimationConfig;
+    
+    [SerializeField] private CannonView _cannonView;
+
+    [SerializeField] private Transform _muzzleTransform;
+    
+    [SerializeField] private List<BulletView> _bulletsView;
+
     private ParalaxManager _paralaxManager;
     private SpriteAnimator _spriteAnimator;
     private MainHeroWalker _mainHeroWalker;
+    private AimingMuzzle _aimingMuzzle;
+    private BulletEmitter _bulletsEmitter;
     
     
     private void Start()
@@ -17,6 +26,8 @@ public class Lessons : MonoBehaviour
         _paralaxManager = new ParalaxManager(_camera, _background.transform);
         _spriteAnimator = new SpriteAnimator(_spriteAnimationConfig);
         _mainHeroWalker = new MainHeroWalker(_characterView, _spriteAnimator);
+        _aimingMuzzle = new AimingMuzzle(_cannonView.transform, _characterView.transform);
+        _bulletsEmitter = new BulletEmitter(_bulletsView, _muzzleTransform.transform);
     }
 
     private void Update()
@@ -24,6 +35,8 @@ public class Lessons : MonoBehaviour
         _paralaxManager.Update();
         _spriteAnimator.Update();
         _mainHeroWalker.Update();
+        _aimingMuzzle.Update();
+        _bulletsEmitter.Update();
     }
 
     private void FixedUpdate()
