@@ -5,7 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Platformer 2D/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Platformer 2D/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Platformer 2D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Platformer 2D/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Lessons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Lessons.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,29 +18,33 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/SpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/CustomAnimation.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CustomAnimation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2A255F4F-234D-4E00-850A-FFF85A122B33/84/8d6f61b7/Rigidbody2D.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletEmitter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/BulletsEmitter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CannonView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AimingMuzzle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/Bullet.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/AimingMuzzle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoinView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/CannonView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Track.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/MainHeroWalker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/BulletView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpriteAnimationConfig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainHeroWalker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoinsManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParalaxManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpriteSequence.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BlockView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/SpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/CustomAnimation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CustomAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletEmitter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CannonView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/EndWebLesson3/EndWebLesson3/Assets/Scripts/MainHeroPhysicsWalker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AimingMuzzle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/EndWebLesson3/EndWebLesson3/Assets/Scripts/ContactsPoller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainHeroWalker.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -51,14 +57,18 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/CustomAnimation.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GroundChecker.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/CharacterView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MainHeroWalker.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BulletView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BulletEmitter.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Lessons.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CannonView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AimingMuzzle.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ContactsPoller.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CharacterView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MainHeroPhysicsWalker.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CoinsManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CoinView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Lessons.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1z5Yjj1SQfqQWS8GawUAbNBKg0C" />
@@ -86,10 +96,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="10148">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="10148" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -108,7 +118,9 @@
       <workItem from="1633719895990" duration="5452000" />
       <workItem from="1633888668188" duration="7362000" />
       <workItem from="1633944067275" duration="5081000" />
-      <workItem from="1634025196971" duration="2162000" />
+      <workItem from="1634025196971" duration="2763000" />
+      <workItem from="1634133420557" duration="5936000" />
+      <workItem from="1634202449735" duration="374000" />
     </task>
     <servers />
   </component>
@@ -147,6 +159,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/CoinsManager.cs</url>
+          <line>20</line>
+          <properties documentPath="D:\GeekBrains\Platformer 2D\Assets\Scripts\CoinsManager.cs" initialLine="20" containingFunctionPresentation="method 'OnLevelObjectContact'">
+            <startOffsets>
+              <option value="562" />
+            </startOffsets>
+            <endOffsets>
+              <option value="597" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
