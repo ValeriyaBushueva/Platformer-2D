@@ -214,7 +214,14 @@
         <e p="Scripts" t="Include">
           <e p="AI" t="Include">
             <e p="AIConfig.cs" t="Include" />
+            <e p="AIPatrolPath.cs" t="Include" />
             <e p="EnemyView.cs" t="Include" />
+            <e p="IProtector.cs" t="Include" />
+            <e p="LevelObjectTrigger.cs" t="Include" />
+            <e p="PatrolAIModel.cs" t="Include" />
+            <e p="ProtectedZone.cs" t="Include" />
+            <e p="ProtectorAI.cs" t="Include" />
+            <e p="SimplePatrolAI.cs" t="Include" />
             <e p="SimplePatrolAIModel.cs" t="Include" />
           </e>
           <e p="AimingMuzzle.cs" t="Include" />
