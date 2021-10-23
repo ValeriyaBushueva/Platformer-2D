@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21c3663d-a27c-4343-a1ef-61f447d3088c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Platformer 2D/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Platformer 2D/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Platformer 2D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Platformer 2D/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/SimplePatrolAIModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/SimplePatrolAIModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/AIConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/AIConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/IProtector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/IProtector.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Lessons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Lessons.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,15 +78,15 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/CoinsManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CoinView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/EnemyView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/AI/AIConfig.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/SimplePatrolAI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/SimplePatrolAIModel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/LevelObjectTrigger.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/AIPatrolPath.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/AI/IProtector.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/PatrolAIModel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/ProtectorAI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/ProtectedZone.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AI/AIConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AI/IProtector.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Lessons.cs" />
     </changedPaths>
   </component>
@@ -143,6 +143,8 @@
       <workItem from="1634325170383" duration="609000" />
       <workItem from="1634578112703" duration="4386000" />
       <workItem from="1634821321105" duration="2043000" />
+      <workItem from="1634902546243" duration="1858000" />
+      <workItem from="1634981609333" duration="646000" />
     </task>
     <servers />
   </component>

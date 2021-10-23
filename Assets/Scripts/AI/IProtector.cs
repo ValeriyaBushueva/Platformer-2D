@@ -1,14 +1,10 @@
 using UnityEngine;
 
-public class IProtector  
+public interface IProtector
 {
-    public void StartProtection(GameObject invader)
-    {
-        
-    }
+    public void StartProtection(GameObject invader);
 
-    public void FinishProtection(GameObject invader)
-    {
-        
-    }
+    public void FinishProtection(GameObject invader);
+
+
 }

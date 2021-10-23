@@ -15,17 +15,17 @@ public class Lessons : MonoBehaviour
     [SerializeField] private EnemyView _enemyView;
     [SerializeField] private AIConfig _config;
     
-    // [Header("Protector AI")]
-    // [SerializeField] 
-    // private AIDestinationSetter _protectorAIDestinationSetter;
-    //
-    // //[SerializeField] private AIPatrolPath _protectorAIPatrolPath;
-    //
-    // [SerializeField] 
-    // private LevelObjectTrigger _protectedZoneTrigger;
-    //
-    // [SerializeField] 
-    // private Transform[] _protectorWaypoints;
+    [Header("Protector AI")]
+    [SerializeField] 
+    private AIDestinationSetter _protectorAIDestinationSetter;
+    
+    [SerializeField] private AIPatrolPath _protectorAIPatrolPath;
+    
+    [SerializeField] 
+    private LevelObjectTrigger _protectedZoneTrigger;
+    
+    [SerializeField] 
+    private Transform[] _protectorWaypoints;
     
     private SimplePatrolAI _simplePatrolAI;
     
@@ -36,8 +36,8 @@ public class Lessons : MonoBehaviour
     private BulletEmitter _bulletsEmitter;
     private CoinsManager _coinsManager;
     
-    // private ProtectorAI _protectorAI;
-    // private ProtectedZone _protectedZone;
+    private ProtectorAI _protectorAI;
+    private ProtectedZone _protectedZone;
     
     
     private void Start()
@@ -50,11 +50,11 @@ public class Lessons : MonoBehaviour
         _coinsManager = new CoinsManager(_coinViews, _spriteAnimator);
        // _simplePatrolAI = new SimplePatrolAI(new SimplePatrolAIModel(_config), _enemyView.Rigidbody);
        
-      // _protectorAI = new ProtectorAI(_characterView, new PatrolAIModel(_protectorWaypoints), _protectorAIDestinationSetter, _protectorAIPatrolPath);
-      // _protectorAI.Init();
+      _protectorAI = new ProtectorAI(_characterView, new PatrolAIModel(_protectorWaypoints), _protectorAIDestinationSetter, _protectorAIPatrolPath);
+      _protectorAI.Init();
       
-       // _protectedZone = new ProtectedZone(_protectedZoneTrigger, new List<IProtector>{ _protectorAI });
-       // _protectedZone.Init();
+       _protectedZone = new ProtectedZone(_protectedZoneTrigger, new List<IProtector>{ _protectorAI });
+       _protectedZone.Init();
     }
 
     private void Update()
@@ -74,8 +74,8 @@ public class Lessons : MonoBehaviour
 
     private void OnDestroy()
     {
-        // _protectorAI.Deinit();
-        // _protectedZone.Deinit();
+        _protectorAI.Deinit();
+        _protectedZone.Deinit();
         _coinsManager?.Dispose();
     }
 }
