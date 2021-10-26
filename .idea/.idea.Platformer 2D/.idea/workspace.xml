@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21c3663d-a27c-4343-a1ef-61f447d3088c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Platformer 2D/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Platformer 2D/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Platformer 2D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Platformer 2D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/AIConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/AIConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/IProtector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/IProtector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Lessons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Lessons.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,41 +16,39 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2A255F4F-234D-4E00-850A-FFF85A122B33/84/8d6f61b7/Rigidbody2D.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/BulletsEmitter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/Bullet.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/AimingMuzzle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Quests/SwitchQuestModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoinView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/IProtector.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/CannonView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Quests/QuestConfigurator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Track.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/LevelObjectTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Quests/QuestStoryConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/MainHeroWalker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/BulletView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/PatrolAIModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpriteAnimationConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoinsManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParalaxManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpriteSequence.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Quests/ResettableQuestStory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BlockView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/SpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/EndWebLesson2/EndWebLesson2/Assets/Scripts/CustomAnimation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Quests/IQuest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/ProtectedZone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CustomAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Quests/QuestItemsConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletEmitter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/SimplePatrolAIModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/SimplePatrolAI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Quests/IQuestStory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/AIConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Quests/QuestObjectView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CannonView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/EndWebLesson3/EndWebLesson3/Assets/Scripts/MainHeroPhysicsWalker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AimingMuzzle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/ProtectorAI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/EndWebLesson3/EndWebLesson3/Assets/Scripts/Lessons.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/EndWebLesson3/EndWebLesson3/Assets/Scripts/ContactsPoller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainHeroWalker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Quests/Quest.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -88,6 +83,18 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/AIConfig.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/IProtector.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Lessons.cs" />
+      <option value="$PROJECT_DIR$/Assets/Quests/QuestItemsConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Quests/QuestConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Quests/QuestStoryConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Quests/IQuest.cs" />
+      <option value="$PROJECT_DIR$/Assets/Quests/IQuestModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Quests/SwitchQuestModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Quests/Quest.cs" />
+      <option value="$PROJECT_DIR$/Assets/Quests/QuestObjectView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Quests/IQuestStory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Quests/QuestStory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Quests/ResettableQuestStory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Quests/QuestConfigurator.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1z5Yjj1SQfqQWS8GawUAbNBKg0C" />
@@ -144,7 +151,9 @@
       <workItem from="1634578112703" duration="4386000" />
       <workItem from="1634821321105" duration="2043000" />
       <workItem from="1634902546243" duration="1858000" />
-      <workItem from="1634981609333" duration="646000" />
+      <workItem from="1634981609333" duration="1325000" />
+      <workItem from="1635182426580" duration="6398000" />
+      <workItem from="1635257265858" duration="2450000" />
     </task>
     <servers />
   </component>
